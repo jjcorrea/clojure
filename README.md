@@ -13,6 +13,19 @@ Clojure is a LISP
 - Interactive - REPL
 - Load / Change code in running program
 
+Data types
+=================
+- Arbitrary precision integers `123456`
+- Doubles `1.234`
+- BigDecimals `1.234M`
+- Ratios `12/7`
+- Strings `"sample"`
+- Chars `\a \b \c`
+- Symbols `sample`
+- Keywords `:sample`
+- Booleans `true false`
+- Regex `#"a*b"`
+
 
 References:
 =================
