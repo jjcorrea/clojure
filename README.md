@@ -76,6 +76,18 @@ Concurrency
 - Conventional way: Direct references to mutable objects with **Locks**
 - Clojure way: Indirect references to immutable and persistent data structures. **No locks in code**.
 
+Clojure references
+=================
+> The only thing that modifies a reference is the reference itself, in a controlled way
+
+3 types of mutable references:
+
+- **Refs** Share Synchronous changes between threads - **Transactional** system
+
+- **Agents** Share Asynchronous changes between threads - Like **actor** models, but doent require message passing to read values
+
+- **Vars** Isolates changes within threads - **Thread local**
+
 
 References:
 =================
