@@ -26,6 +26,19 @@ Data types
 - Booleans `true false`
 - Regex `#"a*b"`
 
+Data structures
+=================
+- Lists - Singly linked, grow at front 
+ `(1 2 3 4 5) (sample1 sample2 sample3) (list 1 2 3)`
+
+- Vectors - Indexed (fast) access, grow at the end 
+ `[1 2 3] [sample1 sample2 sample3]`
+
+- Maps - Key-Value associations 
+ `{:a 1 :b 2 :c 3} {1 "sample1" 2 "sample2"}`
+
+- Sets 
+ `#{sample1 sample2 sample3}`
 
 References:
 =================
