@@ -50,12 +50,6 @@ Syntax
 - No statements, everything is an expression
 - Tiny core, extended with Macros
 
-Java interoperability
-=================
-- `Math/PI 3.141592653589793`
-- `(.. System getProperties (get "java.version"))`
-- `(new java.util.Date)`
-
 Clojure is functional
 =================
 > Functional programming as easy as programming in Python or Ruby
@@ -69,27 +63,7 @@ Clojure is functional
 Abstractions
 =================
 - [Sequences][2]
-
-` (drop 2 [1 2 3 4 5]) -> [3 4 5]`
-
-` (take 9 (cycle [1 2 3 4])) -> [1 2 3 4 1 2 3 4 1]`
-
-` (map vector [:a :b :c] [1 2 3]) -> ([:a 1] [:b 2] [:c 3])`
-
-` (reduce + (range 100)) -> 4950 `
-
-
 - Maps and Sets
-
-` (def m {:a 1 :b 2 :c 3} ) `
-
-` (m :b) ;or (:b m) `
-
-` (keys m) `
-
-` (assoc m :d 4 :e 5) `
-
-` (union #{:a :b :c} #{:d e :f}) -> #{:d :a :b :c :e} `
 
 References:
 =================
