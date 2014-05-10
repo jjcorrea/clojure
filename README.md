@@ -89,6 +89,16 @@ Clojure references
 - **Vars** Isolates changes within threads - **Thread local**
 
 
+Refs and Transactions
+=================
+- Software transactional model system (STM)
+- Refs can only be changed within a transaction
+- All changes are atomic, consistent and isolated
+- Will be retried automatically if conflict
+- User must avoud side-effects
+- Surround code with `(dosync ...)`
+
+
 References:
 =================
 http://www.infoq.com/presentations/hickey-clojure
