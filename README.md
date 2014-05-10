@@ -66,6 +66,18 @@ Clojure is functional
 - Easier to test
 - Higher order functions
 
+Abstractions
+=================
+- [Sequences][2]
+
+` (drop 2 [1 2 3 4 5]) -> [3 4 5]`
+
+` (take 9 (cycle [1 2 3 4])) -> [1 2 3 4 1 2 3 4 1]`
+
+` (map vector [:a :b :c] [1 2 3]) -> ([:a 1] [:b 2] [:c 3])`
+
+` (reduce + (range 100)) -> 4950 `
+
 
 References:
 =================
@@ -74,4 +86,4 @@ http://www.infoq.com/presentations/hickey-clojure
 http://clojure.com/blog/
 
   [1]: http://clojure.org/functional_programming
-  
+  [2]: http://clojure.org/sequences  
