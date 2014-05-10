@@ -1,6 +1,12 @@
 [Clojure][1]
 ===============
 
+http://clojure.org/
+
+http://www.infoq.com/presentations/hickey-clojure
+
+http://learnxinyminutes.com/docs/clojure/
+
 - Emphasis in immutability and referential transparency (no side-effects)
 - Explicit concurrency support
 - Designed for the JVM
@@ -106,9 +112,6 @@ Agents
 - Actions occur asynchronously, in a thread pool, and are dispatched using **send** or **send-off** which returns immediately
 - One action per agent at a time
 
-References:
-=================
-http://www.infoq.com/presentations/hickey-clojure
 
 http://clojure.com/blog/
 
