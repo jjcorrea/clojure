@@ -65,6 +65,18 @@ Abstractions
 - [Sequences][2]
 - Maps and Sets
 
+Persistent data structures
+=================
+- Immutable - Making a new version is cheap
+- All clojure data structures are persistent
+- Structural sharing - Thread safe, iteration safe
+
+Concurrency
+=================
+- Conventional way: Direct references to mutable objects with **Locks**
+- Clojure way: Indirect references to immutable and persistent data structures. **No locks in code**.
+
+
 References:
 =================
 http://www.infoq.com/presentations/hickey-clojure
