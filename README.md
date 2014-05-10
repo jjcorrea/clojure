@@ -40,6 +40,16 @@ Data structures
 - Sets 
  `#{sample1 sample2 sample3}`
 
+Syntax
+=================
+> Things that would be declarations, control structures, function calls,
+> operators, are all just lists with the op at the front
+
+- Data structures **are** the code
+- Not text-based syntax, syntax is the **interpretation** of the data structures
+- No statements, everything is an expression
+
+
 References:
 =================
 http://www.infoq.com/presentations/hickey-clojure
