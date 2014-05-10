@@ -48,11 +48,19 @@ Syntax
 - Data structures **are** the code
 - Not text-based syntax, syntax is the **interpretation** of the data structures
 - No statements, everything is an expression
+- Tiny core, extended with Macros
 
+Java interoperability
+=================
+- `Math/PI 3.141592653589793`
+- `(.. System getProperties (get "java.version"))`
+- `(new java.util.Date)
 
 References:
 =================
 http://www.infoq.com/presentations/hickey-clojure
+
+http://clojure.com/blog/
 
   [1]: http://clojure.org/functional_programming
   
