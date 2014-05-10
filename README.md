@@ -56,6 +56,17 @@ Java interoperability
 - `(.. System getProperties (get "java.version"))`
 - `(new java.util.Date)`
 
+Clojure is functional
+=================
+> Functional programming as easy as programming in Python or Ruby
+
+- Immutability
+- Core library functions have no side effect
+- Easier to understand
+- Easier to test
+- Higher order functions
+
+
 References:
 =================
 http://www.infoq.com/presentations/hickey-clojure
