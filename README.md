@@ -98,6 +98,13 @@ Refs and Transactions
 - User must avoud side-effects
 - Surround code with `(dosync ...)`
 
+Agents
+=================
+- Agents are not actors (Erlang / Scala)
+- Independent state
+- Actions = Functions
+- Actions occur asynchronously, in a thread pool, and are dispatched using **send** or **send-off** which returns immediately
+- One action per agent at a time
 
 References:
 =================
