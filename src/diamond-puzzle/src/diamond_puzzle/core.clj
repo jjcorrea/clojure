@@ -1,4 +1,4 @@
-(ns sample-project.core)
+(ns diamond-puzzle.core)
 
 (defn foo
   "I don't do a whole lot."
