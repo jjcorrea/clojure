@@ -3,6 +3,8 @@
 
 http://clojure.org/
 
+http://clojure.org/rationale
+
 http://www.infoq.com/presentations/hickey-clojure
 
 http://learnxinyminutes.com/docs/clojure/
